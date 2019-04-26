@@ -14,7 +14,7 @@ namespace type_utilities {
 
 	
 template <class T>
-inline constexpr string type_name(bool remove_quatifier = true) {
+inline string type_name(bool remove_quatifier = true) {
 		auto str = std::string(typeid(T).name());
 		if (remove_quatifier)
 			str = std::regex_replace(str.c_str(), literals::quantifier_re, "");

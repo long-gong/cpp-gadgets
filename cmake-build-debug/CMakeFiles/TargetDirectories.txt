@@ -1,0 +1,3 @@
+C:/Users/saber/GITHUB/cpp-gadgets/cmake-build-debug/CMakeFiles/example.dir
+C:/Users/saber/GITHUB/cpp-gadgets/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/saber/GITHUB/cpp-gadgets/cmake-build-debug/CMakeFiles/rebuild_cache.dir

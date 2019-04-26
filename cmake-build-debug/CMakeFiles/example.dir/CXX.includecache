@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/saber/GITHUB/cpp-gadgets/examples.cpp
+iostream
+-
+type_utilities.hpp
+C:/Users/saber/GITHUB/cpp-gadgets/type_utilities.hpp
+
+C:/Users/saber/GITHUB/cpp-gadgets/type_utilities.hpp
+string
+-
+typeinfo
+-
+regex
+-
+

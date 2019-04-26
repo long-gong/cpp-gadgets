@@ -8,12 +8,19 @@ class B {
 
 };
 
+namespace example {
 
+class C {
+
+};
+}
 using namespace type_utilities;
+using namespace example;
 
 int main() {
 	std::cout << type_name<A>() << "\n";
 	std::cout << type_name<B>() << "\n";
+  std::cout << type_name<C>() << "\n";
 	std::cout << type_name<uint64_t>() << "\n";
 	std::cout << type_name<uint32_t>() << "\n";
 	std::cout << type_name<const unsigned short>() << "\n";
